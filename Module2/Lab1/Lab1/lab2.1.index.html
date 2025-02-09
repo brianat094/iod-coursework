@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <!--Addind title and metatags-->
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+
+    <title>Learning HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="practicing HTML" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Briana T" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+
+        <a href="/Lab1/lab2.1.index.html">Home</a>
+
+        <a href="/Lab1/form.html">Form</a>
+      </nav>
+    </header>
+    <h1>"HTML learning journey"</h1>
+
+    <h2>"Learning elements-div,span,p,pre,ul,li,ol,article"</h2>
+    <!--Adding divs, spans, <p>/<pre> into body-->
+    <article>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <span>item1</span><span>item2</span><span>item3</span>
+      <p>p represents paragraph without preserving spacing</p>
+      <pre>
+        Text in         a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+        </pre
+      >
+
+      <!--Adding unordered/ordered, and nested list-->
+      <ul>
+        <li>HTML is index.html</li>
+        <li>JavaScript is .js</li>
+        <li>Style is .css</li>
+        <ul>
+          <li>Nest</li>
+          <li>Nest</li>
+        </ul>
+        <li>Learning is fun</li>
+      </ul>
+      <ol type="i">
+        <li>learn</li>
+        <li>practice</li>
+        <li>execute</li>
+      </ol>
+    </article>
+
+    <!--Adding tables -->
+    <article>
+      <h2>"Learning elements-table,thread,tbody,tr,td,th</h2>
+      <table>
+        <thread>
+          <tr>
+            <th>First header</th>
+            <th colspan="2">Second header</th>
+          </tr>
+        </thread>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Third cell- first row</td>
+          </tr>
+          <tr>
+            <td rowspan="2">First cell - second row</td>
+            <td>Second cell - second row</td>
+            <td>Third cell- second row</td>
+          </tr>
+          <tr>
+            <!-- <td>First cell - third row</td> -->
+            <td>Second cell - third row</td>
+            <td>Third cell- third row</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <!--Adding img,video,audio elements-->
+    <article>
+      <!--Img-->
+      <h2>"Learning elements-img,video,audio</h2>
+      <img
+        src="https://picsum.photos/400/400"
+        alt="random picture"
+        width="300"
+        height="300"
+      />
+      <img
+        src="/Lab1/html_lab_image.jpg"
+        alt="html pic2"
+        width="400"
+        height="200"
+      />
+      <!--video-->
+      <video autoplay width="250">
+        <source src="/Lab1/flower.webm" type="video/webm" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <!--audio-->
+      <audio autoplay src="/Lab1/t-rex-roar.mp3">
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </article>
+
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>

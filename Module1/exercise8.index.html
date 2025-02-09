@@ -1,0 +1,63 @@
+<!--HTML:create the structure of the game-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game">
+        <button type="button" class="button"
+        onClick="rollTheDice()">
+        Roll the Dice
+    </button>
+        <img src="https://th.bing.com/th/id/OIP.JH-aeTynl3YMtTrY6oxegQHaGq?w=176&h=180&c=7&r=0&o=5&pid=1.7 ">
+    
+    </div>
+
+    <script>
+
+
+    </script>
+</body>
+</html>
+// Create .js
+//Generate a random number between 1 and 6 for the first dice
+var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+// Construct the image file name
+var randomImageSource1 = "./images/dice" + randomNumber1 + ".png";
+// Select the first img element
+var image1 = document.querySelector(".img1");
+// Set the src attribute to the new image file
+image1.setAttribute("src", randomImageSource1);
+
+<!--CSS:bring some style to the game-->
+<style>
+body {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d8662;
+}
+
+.game {
+    text-align: center;
+}
+
+.dice {
+    font-size: 100px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7f118d;
+}
+</style>

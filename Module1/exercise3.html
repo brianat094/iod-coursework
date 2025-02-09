@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <title>Module 1 Exercise 3</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; }
+         .container { display: flex; min-height: 100vh; align-items: stretch; }
+         .column { background: goldenrod; display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 1; }
+    </style>
+ </head>
+ <body>
+    <div class="container">`    
+        <div class="column" id="column1">
+            <h1 id="heading1">Love Shopping</h1>
+            <button onclick="ChangeMe1()">Change Me</button> <br />
+            <script>
+                function ChangeMe1() {
+                    document.getElementById("heading1").style.color = "blue"
+                    document.getElementById("column1").style.backgroundColor = "white"
+                }
+            </script>
+            <img src="https://www.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej.png" alt="Bags"
+            width="400"
+            height="200"
+            />
+        </div>
+        <div class="column" id="column2">
+            <h1 id="heading2">Love Food</h1>
+            <button onclick="ChangeMe2()">Change Me</button> <br />
+            
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=16x9&q=h_833,w_1480,c_fill" alt="Food"
+            width="400"
+            height="200"/>
+        </div>
+    </div>
+ </body>
+ <script>
+    function ChangeMe2() {
+        document.getElementById("heading2").style.color = "orange"
+        document.getElementById("column2").style.backgroundColor = "white"
+
+    }
+</script>
+</html>
