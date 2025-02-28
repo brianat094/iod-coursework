@@ -9,8 +9,7 @@ function ucFirstLetters(str) {
     let result = [];
     for (let i = 0; i < words.length; i++) {
         let word = words[i];
-        result.push(word[0].toUpperCase() + word.slice(1));
-    }
+        result.push(word[0].toUpperCase() + word.slice(1));    }
     return result.join(' ');
 }
 // Create a function that takes a string as a parameter and returns the string with the first
