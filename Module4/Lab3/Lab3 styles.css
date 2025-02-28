@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #2da741;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.post {
+    background: #1484a0;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #4b1fec;
+    border-radius: 5px;
+}
+
+.post h2 {
+    margin-top: 0;
+}

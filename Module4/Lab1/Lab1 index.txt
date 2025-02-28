@@ -1,0 +1,4 @@
+Get data (two numbers)
+Choose an operator
+Get the result
+Reset the screen
