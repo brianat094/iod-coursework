@@ -58,4 +58,4 @@ const comment = {
 ReactDOM.render(
     <ComplexComment author={comment.author} date={comment.date} text={comment.text} />,
     document.getElementById('root')
-);1M 
+);
